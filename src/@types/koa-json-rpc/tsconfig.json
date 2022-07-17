@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node",
+    "strict": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noEmit": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "paths": {
+	    "@/*": ["./src/*"]
+    },
+    "outDir": "koa-json-rpc",
+    "emitDeclarationOnly": true,
+    "allowJs": true,
+    "baseUrl": "."
+  },
+  "files": ["index.js"],
+  "include": ["lib"],
+  "exclude": ["test"]
+}

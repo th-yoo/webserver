@@ -1,0 +1,23 @@
+{
+	"loglevel": "debug",
+	"frontend": {
+		"protocol": "http",
+		"host": "localhost",
+		"port": 8989,
+		"static": {
+			"path": "/public",
+			"local_path": "public"
+		},
+		"jsonrpc": {
+			"path": "/api"
+		},
+		"ws": {
+			"path": "/ws"
+		},
+		"sse": {
+			"path": "/sse"
+		},
+		"cors": {
+		}
+	}
+}
